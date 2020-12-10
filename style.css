@@ -1,0 +1,41 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+/*    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.15)), url(images/quiltbynathanbang_unsplash.jpg) ;*/
+    background: url(images/quiltbynathanbang_unsplash.jpg) ;
+    background-size: cover;
+    background-color: rgba(244, 248, 128, 0.27);
+    background-blend-mode: multiply;
+    padding: 10px;
+}
+
+.title, .description { text-align: center; }
+
+.aboveQuiltContainer {
+    background: rgba(255, 255, 255, 0.39);
+}
+
+.quiltContainer {
+    height: 50vh;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px #000;
+}
+
+footer, footer a {
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+}

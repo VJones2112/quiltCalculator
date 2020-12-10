@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title></title>
+<meta charset="UTF-8">
+<meta name="description" content="This is what Google will show.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href=>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+
+
+<body>
+<div class="aboveQuiltContainer">
+    <h1 class="title">Quilt Calculator</h1>
+    <p class="description">Input size of fabric and options to determine how much you can get from that fabric block.</p>
+    
+    <div class="options">
+       
+        <div class="fabricSize">
+<!--           <p class="fabricSize__para">-->
+           <h2>Fabric Size (inches)</h2>
+            Fabric Length<input type="number" class="fabricSize__length" min="1">
+            Fabric Width<input type="number" class="fabricSize__width" min="1">
+ 
+        </div>
+        
+        <div class="blockType">
+ 
+           <h2>Block Type</h2>
+            <select>  
+                <option value="strips">Strips</option>  
+                <option value="squares">Squares</option>  
+            </select>  
+
+        </div>
+        
+        <div class="quiltBlocks">
+           <h2>Block Dimensions (inches)</h2>
+            <div class="blockDimensions">
+                Block Length<input type="number" class="blockDimensions__length" min="1">
+                Block Width<input type="number" class="blockDimensions__width" min="1">
+            </div>     
+        </div>
+        
+
+        
+        <div class="seamAllowance">
+           <h2>Seam Allowances</h2>
+            <select>
+                <option value="0.25">1/4 inch seam allowance</option>
+                <option value="0.5">1/2 inch seam allowance</option>
+                <option value="0.75">3/4 inch seam allowance</option>
+                <option value="1.0">1 inch seam allowance</option>
+            </select>
+        </div>
+        
+    </div> <!--  End of calculator options  -->
+    </div>
+    
+    <container class="quiltContainer"></container>
+
+<footer>
+<!--
+   1st:
+    <span>Photo by <a href="https://unsplash.com/@sincerelymedia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sincerely Media</a> on <a href="https://unsplash.com/s/photos/quilt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+-->
+    
+<!--    2nd: -->
+    <span>Photo by <a href="https://unsplash.com/@nathanbang?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nathan Bang</a> on <a href="https://unsplash.com/s/photos/quilt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+</footer>
+</body>
+
+
+
+</html>
