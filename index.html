@@ -19,19 +19,19 @@
     <p class="description">Input size of fabric and options to determine how much you can get from that fabric block.</p>
     
     <div class="options">
-       
+        
         <div class="fabricSize">
-<!--           <p class="fabricSize__para">-->
            <h2>Fabric Size (inches)</h2>
-            Fabric Length<input type="number" class="fabricSize__length" min="1">
-            Fabric Width<input type="number" class="fabricSize__width" min="1">
- 
+            Fabric Length<input type="number" id="fabricSize__length" min="1">
+            Fabric Width<input type="number" id="fabricSize__width" min="1">
+            <input type="submit" class="fabricSize__submit">
         </div>
         
         <div class="blockType">
  
            <h2>Block Type</h2>
-            <select>  
+            <select class="blockTypes"> 
+                <option></option>  
                 <option value="strips">Strips</option>  
                 <option value="squares">Squares</option>  
             </select>  
@@ -43,6 +43,7 @@
             <div class="blockDimensions">
                 Block Length<input type="number" class="blockDimensions__length" min="1">
                 Block Width<input type="number" class="blockDimensions__width" min="1">
+                <input type="submit" class="blockSize__submit">
             </div>     
         </div>
         
@@ -50,7 +51,8 @@
         
         <div class="seamAllowance">
            <h2>Seam Allowances</h2>
-            <select>
+            <select class="seamAllowances">
+                <option></option>
                 <option value="0.25">1/4 inch seam allowance</option>
                 <option value="0.5">1/2 inch seam allowance</option>
                 <option value="0.75">3/4 inch seam allowance</option>
@@ -72,6 +74,8 @@
 <!--    2nd: -->
     <span>Photo by <a href="https://unsplash.com/@nathanbang?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nathan Bang</a> on <a href="https://unsplash.com/s/photos/quilt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 </footer>
+
+<script src="index.js"></script>
 </body>
 
 
